@@ -1,0 +1,53 @@
+$ pnpm run typecheck && pnpm -r --if-present run build
+$ pnpm run typecheck:libs && pnpm -r --filter "./artifacts/**" --filter "./scripts" --if-present run typecheck
+$ tsc --build
+Scope: 4 of 9 workspace projects
+artifacts/api-server typecheck$ tsc -p tsconfig.json --noEmit
+artifacts/image-grabber typecheck$ tsc -p tsconfig.json --noEmit
+scripts typecheck$ tsc -p tsconfig.json --noEmit
+artifacts/mockup-sandbox typecheck$ tsc -p tsconfig.json --noEmit
+scripts typecheck: Done
+artifacts/api-server typecheck: Done
+artifacts/image-grabber typecheck: Done
+artifacts/mockup-sandbox typecheck: Done
+Scope: 8 of 9 workspace projects
+artifacts/mockup-sandbox build$ vite build
+artifacts/mockup-sandbox build: C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\node_modules\.pnpm\rollup@4.59.0\node_modules\rollup\dist\native.js:115
+artifacts/mockup-sandbox build: 		throw new Error(
+artifacts/mockup-sandbox build: 		      ^
+artifacts/mockup-sandbox build: Error: Cannot find module @rollup/rollup-win32-x64-msvc. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+artifacts/mockup-sandbox build:     at requireWithFriendlyError (C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\node_modules\.pnpm\rollup@4.59.0\node_modules\rollup\dist\native.js:115:9)
+artifacts/mockup-sandbox build:     at Object.<anonymous> (C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\node_modules\.pnpm\rollup@4.59.0\node_modules\rollup\dist\native.js:124:76)
+artifacts/mockup-sandbox build:     at Module._compile (node:internal/modules/cjs/loader:1944:14)
+artifacts/mockup-sandbox build:     at Object..js (node:internal/modules/cjs/loader:2084:10)
+artifacts/mockup-sandbox build:     at Module.load (node:internal/modules/cjs/loader:1666:32)
+artifacts/mockup-sandbox build:     at Module._load (node:internal/modules/cjs/loader:1447:12)
+artifacts/mockup-sandbox build:     at wrapModuleLoad (node:internal/modules/cjs/loader:260:19)
+artifacts/mockup-sandbox build:     at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:373:15)
+artifacts/mockup-sandbox build:     at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:245:9)
+artifacts/mockup-sandbox build:     at ModuleJob.run (node:internal/modules/esm/module_job:447:25) {
+artifacts/mockup-sandbox build:   [cause]: Error: Cannot find module '@rollup/rollup-win32-x64-msvc'
+artifacts/mockup-sandbox build:   Require stack:
+artifacts/mockup-sandbox build:   - C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\node_modules\.pnpm\rollup@4.59.0\node_modules\rollup\dist\native.js
+artifacts/mockup-sandbox build:       at Module._resolveFilename (node:internal/modules/cjs/loader:1568:15)
+artifacts/mockup-sandbox build:       at wrapResolveFilename (node:internal/modules/cjs/loader:1122:27)
+artifacts/mockup-sandbox build:       at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1146:10)
+artifacts/mockup-sandbox build:       at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1173:12)
+artifacts/mockup-sandbox build:       at Module._load (node:internal/modules/cjs/loader:1345:5)
+artifacts/mockup-sandbox build:       at wrapModuleLoad (node:internal/modules/cjs/loader:260:19)
+artifacts/mockup-sandbox build:       at Module.require (node:internal/modules/cjs/loader:1689:12)
+artifacts/mockup-sandbox build:       at require (node:internal/modules/helpers:191:16)
+artifacts/mockup-sandbox build:       at requireWithFriendlyError (C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\node_modules\.pnpm\rollup@4.59.0\node_modules\rollup\dist\native.js:97:10)
+artifacts/mockup-sandbox build:       at Object.<anonymous> (C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\node_modules\.pnpm\rollup@4.59.0\node_modules\rollup\dist\native.js:124:76) {
+artifacts/mockup-sandbox build:     code: 'MODULE_NOT_FOUND',
+artifacts/mockup-sandbox build:     requireStack: [
+artifacts/mockup-sandbox build:       'C:\\Users\\Administrator\\Documents\\Tasks\\Works.Dump\\image-grabber-project\\node_modules\\.pnpm\\rollup@4.59.0\\node_modules\\rollup\\dist\\native.js'
+artifacts/mockup-sandbox build:     ]
+artifacts/mockup-sandbox build:   }
+artifacts/mockup-sandbox build: }
+artifacts/mockup-sandbox build: Node.js v26.4.0
+artifacts/mockup-sandbox build: Failed
+C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\artifacts\mockup-sandbox:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @workspace/mockup-sandbox@2.0.0 build: `vite build`
+Exit status 1
+[ELIFECYCLE] Command failed with exit code 1.

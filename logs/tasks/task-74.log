@@ -1,0 +1,18 @@
+$ pnpm run typecheck && pnpm -r --if-present run build "--ignore-scripts"
+$ pnpm run typecheck:libs && pnpm -r --filter "./artifacts/**" --filter "./scripts" --if-present run typecheck
+$ tsc --build
+Scope: 4 of 9 workspace projects
+artifacts/api-server typecheck$ tsc -p tsconfig.json --noEmit
+artifacts/image-grabber typecheck$ tsc -p tsconfig.json --noEmit
+artifacts/mockup-sandbox typecheck$ tsc -p tsconfig.json --noEmit
+scripts typecheck$ tsc -p tsconfig.json --noEmit
+scripts typecheck: Done
+artifacts/api-server typecheck: Done
+artifacts/image-grabber typecheck: src/pages/Home.tsx(490,14): error TS2552: Cannot find name 'Filter'. Did you mean 'File'?
+artifacts/image-grabber typecheck: Failed
+C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\artifacts\image-grabber:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @workspace/image-grabber@0.0.0 typecheck: `tsc -p tsconfig.json --noEmit`
+Exit status 2
+artifacts/mockup-sandbox typecheck: Done
+[ELIFECYCLE] Command failed with exit code 2.
+[ELIFECYCLE] Command failed with exit code 2.

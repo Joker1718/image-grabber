@@ -1,0 +1,31 @@
+$ pnpm run typecheck && pnpm -r --if-present run build
+$ pnpm run typecheck:libs && pnpm -r --filter "./artifacts/**" --filter "./scripts" --if-present run typecheck
+$ tsc --build
+Scope: 4 of 9 workspace projects
+artifacts/mockup-sandbox typecheck$ tsc -p tsconfig.json --noEmit
+artifacts/api-server typecheck$ tsc -p tsconfig.json --noEmit
+scripts typecheck$ tsc -p tsconfig.json --noEmit
+artifacts/image-grabber typecheck$ tsc -p tsconfig.json --noEmit
+scripts typecheck: Done
+artifacts/api-server typecheck: Done
+artifacts/image-grabber typecheck: Done
+artifacts/mockup-sandbox typecheck: Done
+Scope: 8 of 9 workspace projects
+artifacts/mockup-sandbox build$ vite build
+artifacts/mockup-sandbox build: failed to load config from C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\artifacts\mockup-sandbox\vite.config.ts
+artifacts/mockup-sandbox build: error during build:
+artifacts/mockup-sandbox build: Error: PORT environment variable is required but was not provided.
+artifacts/mockup-sandbox build:     at file:///C:/Users/Administrator/Documents/Tasks/Works.Dump/image-grabber-project/artifacts/mockup-sandbox/node_modules/.vite-temp/vite.config.ts.timestamp-1782999392927-a5266509d5204.mjs:145:9
+artifacts/mockup-sandbox build:     at ModuleJob.run (node:internal/modules/esm/module_job:447:25)
+artifacts/mockup-sandbox build:     at async node:internal/modules/esm/loader:646:26
+artifacts/mockup-sandbox build:     at async loadConfigFromBundledFile (file:///C:/Users/Administrator/Documents/Tasks/Works.Dump/image-grabber-project/node_modules/.pnpm/vite@7.3.2_@types+node@25.3_d5269a53d302b42e602832b0eaecec0c/node_modules/vite/dist/node/chunks/config.js:35920:12)
+artifacts/mockup-sandbox build:     at async bundleAndLoadConfigFile (file:///C:/Users/Administrator/Documents/Tasks/Works.Dump/image-grabber-project/node_modules/.pnpm/vite@7.3.2_@types+node@25.3_d5269a53d302b42e602832b0eaecec0c/node_modules/vite/dist/node/chunks/config.js:35808:17)
+artifacts/mockup-sandbox build:     at async loadConfigFromFile (file:///C:/Users/Administrator/Documents/Tasks/Works.Dump/image-grabber-project/node_modules/.pnpm/vite@7.3.2_@types+node@25.3_d5269a53d302b42e602832b0eaecec0c/node_modules/vite/dist/node/chunks/config.js:35775:42)
+artifacts/mockup-sandbox build:     at async resolveConfig (file:///C:/Users/Administrator/Documents/Tasks/Works.Dump/image-grabber-project/node_modules/.pnpm/vite@7.3.2_@types+node@25.3_d5269a53d302b42e602832b0eaecec0c/node_modules/vite/dist/node/chunks/config.js:35424:22)
+artifacts/mockup-sandbox build:     at async createBuilder (file:///C:/Users/Administrator/Documents/Tasks/Works.Dump/image-grabber-project/node_modules/.pnpm/vite@7.3.2_@types+node@25.3_d5269a53d302b42e602832b0eaecec0c/node_modules/vite/dist/node/chunks/config.js:33879:19)
+artifacts/mockup-sandbox build:     at async CAC.<anonymous> (file:///C:/Users/Administrator/Documents/Tasks/Works.Dump/image-grabber-project/node_modules/.pnpm/vite@7.3.2_@types+node@25.3_d5269a53d302b42e602832b0eaecec0c/node_modules/vite/dist/node/cli.js:629:10)
+artifacts/mockup-sandbox build: Failed
+C:\Users\Administrator\Documents\Tasks\Works.Dump\image-grabber-project\artifacts\mockup-sandbox:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @workspace/mockup-sandbox@2.0.0 build: `vite build`
+Exit status 1
+[ELIFECYCLE] Command failed with exit code 1.

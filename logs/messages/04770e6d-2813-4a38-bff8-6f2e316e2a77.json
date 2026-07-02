@@ -1,0 +1,1 @@
+{"id":"04770e6d-2813-4a38-bff8-6f2e316e2a77", "recipient":"bcde2df2-fea9-43d4-b70b-6b195eea5433", "sender":"bcde2df2-fea9-43d4-b70b-6b195eea5433/task-250", "priority":"MESSAGE_PRIORITY_HIGH", "timestamp":"2026-07-02T13:31:21.671239800Z", "renderDetails":{"messageTitle":"Scheduling 30s timer for build check: Timer has expired"}, "content":"Check task-236 status"}

@@ -1,0 +1,167 @@
+Scope: all 9 workspace projects
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 14, reused 0, downloaded 0, added 0
+Progress: resolved 19, reused 0, downloaded 0, added 0
+Progress: resolved 20, reused 0, downloaded 0, added 0
+Progress: resolved 21, reused 0, downloaded 0, added 0
+Progress: resolved 21, reused 1, downloaded 0, added 0
+Progress: resolved 22, reused 2, downloaded 0, added 0
+Progress: resolved 30, reused 3, downloaded 0, added 0
+Progress: resolved 33, reused 3, downloaded 0, added 0
+Progress: resolved 36, reused 3, downloaded 0, added 0
+Progress: resolved 44, reused 3, downloaded 0, added 0
+Progress: resolved 52, reused 3, downloaded 0, added 0
+Progress: resolved 53, reused 3, downloaded 0, added 0
+Progress: resolved 54, reused 3, downloaded 0, added 0
+Progress: resolved 57, reused 3, downloaded 0, added 0
+artifacts/image-grabber                  | [WARN] deprecated recharts@2.15.4
+Progress: resolved 63, reused 4, downloaded 0, added 0
+[WARN] Request took 10808ms: https://registry.npmjs.org/@radix-ui%2Freact-select
+[WARN] Request took 10554ms: https://registry.npmjs.org/@radix-ui%2Freact-slider
+Progress: resolved 69, reused 4, downloaded 0, added 0
+[WARN] Request took 10309ms: https://registry.npmjs.org/@radix-ui%2Freact-tabs
+Progress: resolved 72, reused 4, downloaded 0, added 0
+Progress: resolved 73, reused 5, downloaded 0, added 0
+[WARN] Request took 10880ms: https://registry.npmjs.org/@radix-ui%2Freact-tooltip
+Progress: resolved 75, reused 5, downloaded 0, added 0
+Progress: resolved 84, reused 6, downloaded 0, added 0
+Progress: resolved 86, reused 6, downloaded 0, added 0
+[WARN] Request took 19196ms: https://registry.npmjs.org/playwright
+Progress: resolved 87, reused 7, downloaded 0, added 0
+Progress: resolved 88, reused 7, downloaded 0, added 0
+Progress: resolved 89, reused 7, downloaded 0, added 0
+Progress: resolved 89, reused 9, downloaded 0, added 0
+Progress: resolved 100, reused 9, downloaded 0, added 0
+Progress: resolved 103, reused 9, downloaded 0, added 0
+Progress: resolved 104, reused 9, downloaded 0, added 0
+Progress: resolved 120, reused 9, downloaded 0, added 0
+Progress: resolved 134, reused 9, downloaded 0, added 0
+Progress: resolved 138, reused 9, downloaded 0, added 0
+Progress: resolved 142, reused 9, downloaded 0, added 0
+Progress: resolved 148, reused 9, downloaded 0, added 0
+Progress: resolved 154, reused 9, downloaded 0, added 0
+Progress: resolved 155, reused 9, downloaded 0, added 0
+Progress: resolved 162, reused 9, downloaded 0, added 0
+Progress: resolved 170, reused 9, downloaded 0, added 0
+Progress: resolved 171, reused 9, downloaded 0, added 0
+Progress: resolved 181, reused 9, downloaded 0, added 0
+Progress: resolved 187, reused 10, downloaded 0, added 0
+Progress: resolved 192, reused 10, downloaded 0, added 0
+Progress: resolved 201, reused 10, downloaded 0, added 0
+Progress: resolved 214, reused 10, downloaded 0, added 0
+Progress: resolved 228, reused 10, downloaded 0, added 0
+Progress: resolved 240, reused 10, downloaded 0, added 0
+Progress: resolved 260, reused 10, downloaded 0, added 0
+Progress: resolved 288, reused 10, downloaded 0, added 0
+Progress: resolved 312, reused 11, downloaded 0, added 0
+Progress: resolved 325, reused 12, downloaded 0, added 0
+Progress: resolved 363, reused 12, downloaded 0, added 0
+Progress: resolved 388, reused 12, downloaded 0, added 0
+Progress: resolved 416, reused 12, downloaded 0, added 0
+Progress: resolved 428, reused 13, downloaded 0, added 0
+Progress: resolved 456, reused 13, downloaded 0, added 0
+[WARN] Request took 10397ms: https://registry.npmjs.org/react-is
+[WARN] Request took 11125ms: https://registry.npmjs.org/scheduler
+Progress: resolved 474, reused 13, downloaded 0, added 0
+[WARN] Request took 12654ms: https://registry.npmjs.org/react-refresh
+Progress: resolved 508, reused 13, downloaded 0, added 0
+Progress: resolved 522, reused 13, downloaded 0, added 0
+[WARN] Request took 18985ms: https://registry.npmjs.org/playwright-core
+Progress: resolved 532, reused 13, downloaded 0, added 0
+Progress: resolved 533, reused 13, downloaded 0, added 0
+Progress: resolved 534, reused 13, downloaded 0, added 0
+Progress: resolved 534, reused 14, downloaded 0, added 0
+[WARN] 2 deprecated subdependencies found: tsconfck@3.1.6, whatwg-encoding@3.1.1
+Packages: +5
++++++
+Progress: resolved 534, reused 15, downloaded 0, added 0
+Progress: resolved 534, reused 16, downloaded 0, added 0
+Progress: resolved 534, reused 17, downloaded 0, added 0
+Progress: resolved 534, reused 19, downloaded 0, added 0
+Progress: resolved 534, reused 20, downloaded 0, added 0
+Progress: resolved 534, reused 24, downloaded 0, added 0
+Progress: resolved 534, reused 26, downloaded 0, added 0
+Progress: resolved 534, reused 29, downloaded 0, added 0
+Progress: resolved 534, reused 30, downloaded 0, added 0
+Progress: resolved 534, reused 31, downloaded 0, added 0
+Progress: resolved 534, reused 32, downloaded 0, added 0
+Progress: resolved 534, reused 34, downloaded 0, added 0
+Progress: resolved 534, reused 37, downloaded 0, added 0
+Progress: resolved 534, reused 38, downloaded 0, added 0
+Progress: resolved 534, reused 41, downloaded 0, added 0
+Progress: resolved 534, reused 42, downloaded 0, added 0
+Progress: resolved 534, reused 44, downloaded 0, added 0
+Progress: resolved 534, reused 46, downloaded 0, added 0
+Progress: resolved 534, reused 47, downloaded 0, added 0
+Progress: resolved 534, reused 48, downloaded 0, added 0
+Progress: resolved 534, reused 49, downloaded 0, added 0
+Progress: resolved 534, reused 50, downloaded 0, added 0
+Progress: resolved 534, reused 51, downloaded 0, added 0
+Progress: resolved 534, reused 52, downloaded 0, added 0
+Progress: resolved 534, reused 53, downloaded 0, added 0
+Progress: resolved 534, reused 54, downloaded 0, added 0
+Progress: resolved 534, reused 55, downloaded 0, added 0
+Progress: resolved 534, reused 56, downloaded 0, added 0
+Progress: resolved 534, reused 57, downloaded 0, added 0
+Progress: resolved 534, reused 58, downloaded 0, added 0
+Progress: resolved 534, reused 59, downloaded 0, added 0
+Progress: resolved 534, reused 60, downloaded 0, added 0
+Progress: resolved 534, reused 62, downloaded 0, added 0
+Progress: resolved 534, reused 63, downloaded 0, added 0
+Progress: resolved 534, reused 66, downloaded 0, added 0
+Progress: resolved 534, reused 69, downloaded 0, added 0
+Progress: resolved 534, reused 71, downloaded 0, added 0
+Progress: resolved 534, reused 76, downloaded 0, added 0
+Progress: resolved 534, reused 77, downloaded 0, added 0
+Progress: resolved 534, reused 79, downloaded 0, added 0
+Progress: resolved 534, reused 82, downloaded 0, added 0
+Progress: resolved 534, reused 83, downloaded 0, added 0
+Progress: resolved 534, reused 84, downloaded 0, added 0
+Progress: resolved 534, reused 85, downloaded 0, added 0
+Progress: resolved 534, reused 86, downloaded 0, added 0
+Progress: resolved 534, reused 94, downloaded 0, added 0
+Progress: resolved 534, reused 100, downloaded 0, added 0
+Progress: resolved 534, reused 103, downloaded 0, added 0
+Progress: resolved 534, reused 104, downloaded 0, added 0
+Progress: resolved 534, reused 105, downloaded 0, added 0
+Progress: resolved 534, reused 106, downloaded 0, added 0
+Progress: resolved 534, reused 107, downloaded 0, added 0
+Progress: resolved 534, reused 108, downloaded 0, added 0
+Progress: resolved 534, reused 111, downloaded 0, added 0
+Progress: resolved 534, reused 116, downloaded 0, added 0
+Progress: resolved 534, reused 123, downloaded 0, added 0
+Progress: resolved 534, reused 125, downloaded 0, added 0
+Progress: resolved 534, reused 133, downloaded 0, added 0
+Progress: resolved 534, reused 139, downloaded 0, added 0
+Progress: resolved 534, reused 146, downloaded 0, added 0
+Progress: resolved 534, reused 148, downloaded 0, added 0
+Progress: resolved 534, reused 168, downloaded 0, added 0
+Progress: resolved 534, reused 185, downloaded 0, added 0
+Progress: resolved 534, reused 191, downloaded 0, added 0
+Progress: resolved 534, reused 192, downloaded 0, added 0
+Progress: resolved 534, reused 193, downloaded 0, added 0
+Progress: resolved 534, reused 194, downloaded 0, added 0
+Progress: resolved 534, reused 196, downloaded 0, added 0
+Progress: resolved 534, reused 197, downloaded 0, added 0
+Progress: resolved 534, reused 202, downloaded 0, added 0
+Progress: resolved 534, reused 204, downloaded 0, added 0
+Progress: resolved 534, reused 205, downloaded 0, added 0
+Progress: resolved 534, reused 210, downloaded 0, added 0
+Progress: resolved 534, reused 211, downloaded 0, added 0
+Progress: resolved 534, reused 226, downloaded 0, added 0
+Progress: resolved 534, reused 231, downloaded 0, added 0
+Progress: resolved 534, reused 253, downloaded 0, added 0
+Progress: resolved 534, reused 309, downloaded 0, added 0
+Progress: resolved 534, reused 368, downloaded 0, added 0
+Progress: resolved 534, reused 423, downloaded 0, added 0
+Progress: resolved 534, reused 497, downloaded 0, added 0
+Progress: resolved 534, reused 514, downloaded 0, added 0
+Progress: resolved 534, reused 515, downloaded 0, added 0
+Progress: resolved 534, reused 515, downloaded 1, added 0
+Progress: resolved 534, reused 516, downloaded 4, added 0
+Progress: resolved 534, reused 516, downloaded 5, added 5
+Progress: resolved 534, reused 516, downloaded 5, added 5, done
+. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "${npm_config_user_agent:-$NPM_CONFIG_USER_AGENT}" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+. preinstall: Done
+
+Done in 7m 45.3s using pnpm v11.5.0

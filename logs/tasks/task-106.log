@@ -1,0 +1,8 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-02T21:16:43+08:00
+Prompt: Check task-74 status
+Early Termination: bcde2df2-fea9-43d4-b70b-6b195eea5433/task-74
+
+[2026-07-02T21:16:23+08:00] Still waiting. Remaining time: 20s
+[2026-07-02T21:16:33+08:00] Still waiting. Remaining time: 10s
+[2026-07-02T21:16:43+08:00] Timer fired.

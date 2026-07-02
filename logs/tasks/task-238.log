@@ -1,0 +1,7 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-02T21:29:59+08:00
+Prompt: Check task-236 status
+Early Termination: bcde2df2-fea9-43d4-b70b-6b195eea5433/task-236
+
+[2026-07-02T21:29:54+08:00] Still waiting. Remaining time: 5s
+[2026-07-02T21:29:59+08:00] Timer fired.

@@ -1,0 +1,1 @@
+{"id":"fa017cad-01c7-45cf-9847-0fc76047e5ae", "recipient":"bcde2df2-fea9-43d4-b70b-6b195eea5433", "sender":"bcde2df2-fea9-43d4-b70b-6b195eea5433/task-175", "priority":"MESSAGE_PRIORITY_HIGH", "timestamp":"2026-07-02T13:21:03.825759900Z", "renderDetails":{"messageTitle":"Scheduling timer for install check: Timer has expired"}, "content":"Check pnpm install status"}

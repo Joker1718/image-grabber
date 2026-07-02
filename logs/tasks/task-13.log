@@ -1,0 +1,30 @@
+Scope: all 9 workspace projects
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+   ╭─────────────────────────────────────────╮
+   │                                         │
+   │   Update available! 11.5.0 → 11.9.0.    │
+   │   Changelog: https://pnpm.io/v/11.9.0   │
+   │    To update, run: pnpm self-update     │
+   │                                         │
+   ╰─────────────────────────────────────────╯
+
+
+. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+. preinstall: Use pnpm instead
+. preinstall: Failed
+[ELIFECYCLE] Command failed with exit code 1.
+[ERROR] Command failed with exit code 1: "C:\Users\Administrator\scoop\apps\pnpm\current\pnpm.exe" install
+
+pnpm: Command failed with exit code 1: "C:\Users\Administrator\scoop\apps\pnpm\current\pnpm.exe" install
+    at getFinalError (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:3761:14)
+    at makeError (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:6068:21)
+    at getSyncResult (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:7912:10)
+    at spawnSubprocessSync (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:7872:14)
+    at execaCoreSync (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:7802:23)
+    at callBoundExeca (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:10330:23)
+    at boundExeca (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:10307:49)
+    at sync (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:10466:10)
+    at runPnpmCli (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:217977:5)
+    at runDepsStatusCheck (file:///C:/Users/Administrator/scoop/apps/pnpm/11.5.0/dist/pnpm.mjs:219711:7)
